@@ -7,7 +7,7 @@
 		<meta name="description" content="This is my website. It's technically my first resume website. It's alright, I guess.">
 		<meta name="author" content="Amogh Bhabal">
 		<meta name="keywords" content="Amogh Bhabal, Mowghli">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		<link rel="icon" href="resources/surprised-pikachu.png">
 		<Title>Amogh's Website</Title>
 	</head>
@@ -15,43 +15,94 @@
 		<header>
 			<nav class="navbar">
 		      <ul class="navbar-elements">
-		      	<li><a id="navbar_options" href="#home">Home</a></li>
-		        <li><a id="navbar_options" href="#about">About</a></li>
+		      	<!-- <li><a id="navbar_options" href="#home">Home</a></li> -->
+		        <li><a id="navbar_options" href="#menu">Home</a></li>
 		        <li><a id="navbar_options" href="#projects">Portfolio</a></li>
 		        <li> <a id="navbar_options" href="#contact">Contact</a></li>
 		        </ul>
 		    </nav>
 		</header>
+
+
+		
 		<main>
-
+			<!-- This is actually a vcertical bar which we don't need for now -->
+			<header>
+			<nav class="horizbar">
+		      <ul class="horizbar-elements">
+		      	<li><a id="navbar_options" href="#home">Home</a></li>
+		        <li><a id="navbar_options" href="#menu">Home</a></li>
+		        <li><a id="navbar_options" href="#projects">Portfolio</a></li>
+		        <li> <a id="navbar_options" href="#contact">Contact</a></li>
+		        </ul>
+		    </nav>
+		</header>
+		<!-- End of the vcertical bar which we don't need for now -->
 			
+			<div class = "lol">
+		
+				<!-- <section id="home">
+					
+					
+				</section> -->
+				<section id="menu">
+					
+				</section>
+				<section id="home">
+					<h1>Amogh Bhabal<h1>
+					<h2>Full-stack Engineer</h2>
+					<h2>About Me</h2>
+					<p id="aboutme">I'm currently a Software Engineer. At the moment, I am looking for opportunities, but in the meantime, I decided to rewamp my website. Honestly it's more like continue wherever I left off sometime in 2020.</p>
+					<h2>What am I currently working on</h2>
+					<p id="workingon">I am currently working as a Freelance Fullstack Engineer for Ona Care Technologies Inc.</p>
+					<img id = "myphoto" src="resources/Bhabal-Amogh-Maheshchandra-131a.jpg" alt="MY FACE"  height="400">
+				</section>
 
-			
-			<section id="home">
-				<img src="resources/Bhabal-Amogh-Maheshchandra-131a.jpg" alt="MY FACE"  height="400">
-				<h1>Amogh Bhabal<h1>
-				<h2>Full-stack Engineer</h2>
-			</section>
-			<section id="about">
-				<h2>About</h2>
-				I'm a Software Engineer Intern at Sensagrate, where I'm currently working on their Sensavision project. 
-			</section>
-			<section id="projects">
-				<h2>Portfolio</h2>
-				<h3>VASSL: A Visual Analytics Toolkit for Social Spambot Labeling</h3>
-				<h3>Wildlife Detection Application</h3>
-				<h3>Video Surveillance Application on cloud (AWS)</h3>
-				<h3>Determining User Demographics based on Browsing History</h3>
+				<section id="projects">
+					<h2>Portfolio</h2>
+					<div>
+					<h3>VASSL: A Visual Analytics Toolkit for Social Spambot Labeling</h3>
+					<p id="aboutme">Developed a web toolkit with JavaScript with D3.js framework, that uses Twitter data about real and fake users and generates visualizations that help analysts understand the relative number of Twitter spambots over the years. Made the Time View: a box and whisker plot that shows the growth of spambots in Twitter through the years.</p>
+					</div>
+					<div>
+					<h3>Wildlife Detection Application</h3>
+					<p id="aboutme">Collaborated on the development of an Android app with Kotlin framework, that takes photos and identifies animal and plant species in photos taken. This is useful in remote areas to identify unknown animals and plants. It integrates Firebase Storage and Firestore Database to store images and metadata. The Machine Learning model was trained and deployed on Google AutoML Vision, which services requests from the app.</p>
+					</div>
+					<div>
+					<h3>Video Surveillance Application on cloud (AWS)</h3>
+					<p id="aboutme">Deployed a cloud app with Java and Spring boot framework on Elastic Compute Cloud (EC2), that applies deep learning to detect objects in videos collected from Internet of Things (IoT) devices in real-time. AWS services like Simple Queue Service (SQS), and Simple Storage Service (S3) were also used. Created the app-tier instances that process videos sent from clients. The application handles concurrent client requests, performs load balancing, and scales up or down, depending on the number of requests.</p>
+					</div>
+					<div>
+					<h3>Determining User Demographics based on Browsing History</h3>
+					<p id="aboutme">Worked on a desktop app with Java and Oracle 11g, that takes in user’s locally stored browsing history as input and predicts the demographic attributes of the user like gender, age group, and areas of interest. Integrated a tag cloud that represents the relevant areas of interest. The application aims to help advertisement companies analyze user demographics and provide relevant advertisements to users, to sell more products and services.</p>
+					</div>
+				</section>
 
-			</section>
-			<section id="contact">
-				<h2>Contact</h2>
-				<h4>LinkedIn: <a href="https://www.linkedin.com/in/amogh-bhabal-a63768100/" target="blank">link</a></h4>
-				<h4>Facebook: <a href="https://www.facebook.com/amogh.m.bhabal/" target="blank">link</a></h4>
-				<h4>Github: <a href="https://github.com/Mowghli" target="blank">link</a></h4>
-				<h4>Codepen: <a href="https://codepen.io/evil_space" target="blank">link</a></h4>
-			</section>
+				<section id="education">
+				<div>
+					<h2>Education</h2>
+					<h3>Arizona State University</h3>
+					<h4>Master’s Degree, Computer Science</h4>
+					<h4>CGPA: 3.81</h4>
+				</div>
+				<div>
+					<h3>K.J. Somaiya College of Engineering, Vidyavihar</h3>
+					<h4>Bachelor of Engineering, Computer Engineering</h4>
+					<h4>CPI: 7.53</h4>
+				</div>
+				</section>
+
+
+				<section id="contact">
+					<h2>Contact</h2>
+					<h4>LinkedIn: <a href="https://www.linkedin.com/in/amogh-bhabal-a63768100/" target="blank">link</a></h4>
+					<h4>Github: <a href="https://github.com/Mowghli" target="blank">link</a></h4>
+					<h4>Codepen: <a href="https://codepen.io/evil_space" target="blank">link</a></h4>
+				</section>
+		</div>
+
 		</main>
+
 		<footer>
 			
 		</footer>

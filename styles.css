@@ -1,6 +1,153 @@
 body{
   box-sizing: border-box;
-  display:block;
-    line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  background-color: #686963;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #dbdbdb;
+
+/*    line-height: 1.4;*/
 /*     font-size: 1.8rem; */
 }
+
+
+main{
+/*display: flex;
+float: right;
+background-color: skyblue;
+padding-left: 400px;*/
+display: flex;
+margin: 0;
+flex-direction: row;
+flex-wrap: wrap;
+height: 110%;
+
+}
+.lol{
+/*  margin-top: 100px;*/
+/*  margin-left: 10%;*/
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+
+
+
+}
+#menu{
+  height: 100px;;
+}
+section{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0px 500px;
+  box-sizing: border-box;
+}
+#home{
+  background-color: #8AA29E;
+  height: 80vh;
+  color: #2f2d2d;
+
+
+}
+
+
+#education{
+  background-color: #3D5467;
+  height: 80vh;
+  
+}
+
+
+#projects{
+  background-color: #2c6355;
+  height: 80vh;
+  color: #dbdbdb;
+  
+}
+
+#aboutme{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+#contact{
+
+  background-color: #EB5E55;
+  height: 10vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#myphoto{
+  border-radius: 50%;
+
+}
+
+.horizbar{
+  display: none;
+  height: 100vh;
+  background-color: yellow;
+  position:fixed;
+  justify-content: center;
+  float: left;
+  width:10%;
+  border: 0;
+
+}
+
+.navbar{
+
+  display:flex;
+  justify-content: right;
+  opacity: 0.70;
+
+  background-color:black;
+  position:fixed;
+
+  width:100%;
+  height: 100px;
+  box-shadow: 0 1px 3px black;
+  z-index: 20;
+/*  z-index: 10;*/
+
+}
+
+.navbar-elements{
+  list-style:none;
+  display:flex;
+  margin:0;
+  margin-right: 2rem;
+}
+
+#navbar_options{
+  display:block;
+  color:#ECECE7;
+
+  padding:0.6rem;
+  font-size: 3.0vh;
+/*   padding: 0; */
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+.navbar-elements > li{
+  display: flex;
+  align-items: center;
+}
+
+
+.horizbar-elements{
+  margin-top: 200px;
+}
+
+
